@@ -68,13 +68,14 @@ This project use Weights & Biases to monitor loss curves. If you're not familiar
 
 ## Example
 
-Download our [checkpoint models](https://github.com/zhenyuwei2003/DRO-Grasp/releases/tag/v1.0) and unzip the contents into the `ckpt/` folder, or simply execute:
+Download our [checkpoint models & data](https://github.com/zhenyuwei2003/DRO-Grasp/releases/tag/v1.0) and unzip the contents into the `ckpt/` & `data/` folder, or simply execute:
 
 ```bash
 bash scripts/download_ckpt.sh
+bash scripts/download_data.sh
 ```
 
-To verify that the Isaac Gym environment is correctly installed and to evaluate the performance of our model, run `python scripts/example_isaac.py`. You can also run `python scripts/example_pretrain.py` to obtain the matching order of our pretrained model, which is a good indicator of its effectiveness. You can visualize the correspondence matching results by running `python visualizatino/vis_pretrain.py`.
+To verify that the Isaac Gym environment is correctly installed and to evaluate the performance of our model, run `python scripts/example_isaac.py`. You can also run `python scripts/example_pretrain.py` to obtain the matching order of our pretrained model, which is a good indicator of its effectiveness. You can visualize the correspondence matching results by running `python visualization/vis_pretrain.py`.
 
 ## How to use?
 
