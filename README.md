@@ -207,7 +207,7 @@ DRO-Grasp
 If you find our codes or models useful in your work, please cite [our paper](https://arxiv.org/abs/2410.01702):
 
 ```
-@INPROCEEDINGS{11127754,
+@INPROCEEDINGS{wei2024dro,
     author={Wei, Zhenyu and Xu, Zhixuan and Guo, Jingxiang and Hou, Yiwen and Gao, Chongkai and Cai, Zhehao and Luo, Jiayu and Shao, Lin},
     booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
     title={$\mathcal{D}(\mathcal{R}, \mathcal{O})$ Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping}, 
